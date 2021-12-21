@@ -1,0 +1,26 @@
+.social-networks-list {
+  display: flex;
+  /* padding: 0 32px; */
+  justify-content: space-between;
+  padding: 0 32px;
+  width: 270px;
+}
+
+.social-networks-list__field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--social-networks-icon-main-color);
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-timing);
+}
+
+.social-networks-list__link:hover .social-networks-list__field,
+.social-networks-list__link:focus .social-networks-list__field {
+  background-color: var(--website-navigation-hover-color);
+  fill: var(--social-networks-icon-hover-color);
+}

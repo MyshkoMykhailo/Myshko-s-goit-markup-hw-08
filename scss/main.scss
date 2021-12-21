@@ -1,0 +1,26 @@
+@import "./base/_reset.scss";
+@import "./base/common";
+
+@import "./utils/_variables.scss";
+@import "./utils/visually-hidden";
+
+@import "./components/section";
+@import "./components/container";
+@import "./components/button";
+@import "./components/modal-window";
+@import "./components/section-head";
+@import "./components/grid";
+@import "./components/logo";
+@import "./components/buttons-bar";
+@import "./components/form";
+@import "./components/custom_checkbox";
+@import "./components/social-networks";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/advantages";
+@import "./layout/what-we-do";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio";

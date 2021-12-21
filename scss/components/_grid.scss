@@ -1,0 +1,11 @@
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+  }
+
+ .grid-item {
+     flex-basis: calc((100% - ((var(--raw-item-number)) - 1 ) * 30px) / (var(--raw-item-number)));
+     margin-bottom: 30px;
+}

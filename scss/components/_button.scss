@@ -1,0 +1,20 @@
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    min-height: 50px;
+    padding: 10px 28px;
+    background: var(--hero-button-backgrund-color);
+    box-shadow: 0px 4px 4px var(--hero-button-box-shadow);
+    border: none;
+    border-radius: var(--button-box-radius);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--hero-button-text-color);
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,26 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text-main-color);
+  }
+    
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing);
+    &:hover, 
+    &:focus {
+      color: var(--website-navigation-hover-color);
+    }
+  }
