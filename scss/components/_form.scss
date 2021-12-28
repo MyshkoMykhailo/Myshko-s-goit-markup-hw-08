@@ -10,7 +10,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  @media screen and (min-width: 330px) {
+  @media screen and (min-width: 341px) {
     font-size: 20px;
   }
 }
@@ -93,19 +93,14 @@
 .form__checkbox-label {
   position: relative;
   display: block;
-  // width: 425px;
   padding-left: 24px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  white-space: nowrap;
+  // white-space: nowrap;
   text-align: left;
   color: #757575;
   margin-bottom: 30px;
-
-  @media screen and (min-width: 480px) {
-    font-size: 12px;
-  }
 
   @media screen and (min-width: 1200px) {
     font-size: 14px;
