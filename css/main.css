@@ -239,7 +239,7 @@ img {
 }
 
 .section-head {
-  margin-bottom: 3 0px;
+  margin-bottom: 30px;
   font-size: 28px;
   line-height: 1.17;
   text-align: center;
@@ -752,7 +752,7 @@ img {
   font-size: 14px;
   line-height: 1.1429;
   letter-spacing: 0.02em;
-  color: var(--website-navigation-contacts-color);
+  color: var(--website-navigation-base-color);
 }
 
 .website-navigation__item:not(:last-child) {
