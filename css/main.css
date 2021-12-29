@@ -552,68 +552,6 @@ img {
   color: var(--logo-second-half-header-color);
 }
 
-.mobile-header__menu-button-open {
-  display: flex;
-  padding: 0;
-  border: none;
-  background: none;
-}
-
-@media (min-width: 768px) {
-  .mobile-header__menu-button-open {
-    display: none;
-  }
-}
-
-.mobile-header__menu-button-close {
-  position: absolute;
-  display: flex;
-  padding: 0;
-  top: 10px;
-  right: 15px;
-  border: none;
-  background: none;
-}
-
-@media (min-width: 768px) {
-  .mobile-header__menu-button-close {
-    display: none;
-  }
-}
-
-.mobile-header__menu-button-close:hover svg,
-.mobile-header__menu-button-open:hover svg,
-.mobile-header__menu-button-close:focus svg,
-.mobile-header__menu-button-open:focus svg {
-  fill: var(--website-navigation-hover-color);
-}
-
-.mobile-header-menu {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffffff;
-  padding: 48px 40px;
-  overflow-y: scroll;
-  z-index: 999;
-  transform: translateX(100%);
-  transition: transform 250ms var(--transition-timing);
-}
-
-@media screen and (min-width: 768px) {
-  .mobile-header-menu {
-    display: none;
-  }
-}
-
-.mobile-header-menu.is-open {
-  transform: translateX(0);
-}
-
 .header__menu {
   display: flex;
   align-items: center;
@@ -820,6 +758,68 @@ img {
   100% {
     transform: scale(1) rotate(0deg);
   }
+}
+
+.mobile-header__menu-button-open {
+  display: flex;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .mobile-header__menu-button-open {
+    display: none;
+  }
+}
+
+.mobile-header__menu-button-close {
+  position: absolute;
+  display: flex;
+  padding: 0;
+  top: 10px;
+  right: 15px;
+  border: none;
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .mobile-header__menu-button-close {
+    display: none;
+  }
+}
+
+.mobile-header__menu-button-close:hover svg,
+.mobile-header__menu-button-open:hover svg,
+.mobile-header__menu-button-close:focus svg,
+.mobile-header__menu-button-open:focus svg {
+  fill: var(--website-navigation-hover-color);
+}
+
+.mobile-header-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 48px 40px;
+  overflow-y: scroll;
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 250ms var(--transition-timing);
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-header-menu {
+    display: none;
+  }
+}
+
+.mobile-header-menu.is-open {
+  transform: translateX(0);
 }
 
 .hero {

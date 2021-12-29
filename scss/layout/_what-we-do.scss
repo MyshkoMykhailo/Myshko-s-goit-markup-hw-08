@@ -1,21 +1,9 @@
 .section_what-we-do {
   padding-top: 0;
   @media screen and (max-width: 1199.5px) {
-    // padding: 0;
     display: none;
   }
 }
-
-// .what-we-do__hide {
-//   @media screen and (min-width: 0px) and (max-width: 1199.5px) {
-//     position: absolute;
-//     clip: rect(0 0 0 0);
-//     width: 1px;
-//     height: 1px;
-//     margin: -1px;
-//     padding: 0;
-//   }
-// }
 
 .what-we-do__grid-item {
   position: relative;
